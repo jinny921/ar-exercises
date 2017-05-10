@@ -18,28 +18,28 @@ puts "----------"
 @store1.employees.create(
   first_name: "Rachel", 
   last_name: "Green", 
-  hourly_rate: 40)
+  hourly_rate: 60)
 @store1.employees.create(
   first_name: "Monica", 
   last_name: "Geller", 
-  hourly_rate: 45)
+  hourly_rate: 70)
 
 @store1.employees.create(
   first_name: "Ross", 
   last_name: "Geller", 
-  hourly_rate: 60)
+  hourly_rate: 100)
 
 @store2.employees.create(
   first_name: "Chandler", 
   last_name: "Bing", 
-  hourly_rate: 80)
+  hourly_rate: 180)
 
 @store2.employees.create(
   first_name: "Joey", 
   last_name: "Tribioni", 
-  hourly_rate: 25)
+  hourly_rate: 40)
 
 @store2.employees.create(
   first_name: "Pheobe", 
   last_name: "Buffay", 
-  hourly_rate: 100)
+  hourly_rate: 65)
