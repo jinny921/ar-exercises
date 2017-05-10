@@ -10,3 +10,10 @@ require_relative './exercise_7'
 
 puts "Exercise 8"
 puts "----------"
+
+# @store6 = Store.find(5)
+
+@store6.employees.create(
+  first_name: "Jinny", 
+  last_name: "Huang", 
+  hourly_rate: 200)
