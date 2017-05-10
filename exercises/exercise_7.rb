@@ -14,3 +14,4 @@ print "Please give your store a name: "
 p @store_name
 @store_created = Store.create(name: @store_name)
 puts @store_created.errors.full_messages if @store_created.errors.any?
+
